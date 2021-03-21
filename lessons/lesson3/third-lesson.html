@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ThirdLesson.css">
+    <link rel="stylesheet" href="style-third.css">">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="logo"></div>
+                <h1>Lesson Three </h1>
+            </div>
+            <h2>Контакты:</h2>
+            <nav class="navigator">
+                <a class="inst" href="https://www.instagram.com/doshchenko_/" target="_blank">Instagram</a>
+                <a class="face" href="https://www.facebook.com/max.doschenko" target="_blank">Facebook</a>
+            </nav>
+        </header>
+        <main>
+            <table class="table">
+                <tr>
+                    <td class="leftbar">
+                        <div  ><a class="button" href="../../index.html">Главная</a></div>
+                        <div ><a class="button" href="../../purpuse/purpuse.html">Мои цели</a></div>
+                        <div ><a class="button" href="../lesson1/first-lesson.html">Мое первое занятие</a></div>
+                        <div ><a class="button" href="../lesson2/second-lesson.html">Мое второе занятие</a></div>
+                        <div class="mainButton"><a class="button" href="#">Мое третье занятие</a></div>
+                        <div><a class="button" href="../lesson4/fourth-lesson.html">Мое четвёртое занятие</a></div>
+                        <div><a class="button" href="../lesson5/fifth-lesson.html">Мое пятое занятие</a></div>
+                        <div ><a class="button" href="../lesson6/six-lesson.html">Мое шестое занятие</a></div>
+                        <div><a class="button" href="../lesson7/sevens-lesson.html">Мое седьмое занятие</a></div>
+                        <div><a class="button" href="../lesson8/eight-lesson.html">Мое восьмое занятие</a></div>
+                        <div><a class="button" href="../lesson9/ninth-lesson.html">Мое девятое занятие</a></div>
+                        <div ><a class="button" href="../../makets/makets.html">Макеты</a></div>
+                    </td>
+                    <td class="content">
+                        <table>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Пример</th>
+                                <th>Описание</th>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            < link rel="stylesheet" href="">
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td id="Link">
+                                    Здесь подключен Css файл
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Тег позволяющий подключать CSS файл к HTML
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ol>
+                                        <li>
+                                            *
+                                        </li>
+                                        <li>
+                                            .classname
+                                        </li>
+                                        <li>
+                                            #id
+                                        </li>
+                                        <li>
+                                            tagname
+                                        </li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Базовые CSS селекторы
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Применяется ко всем тегам которые есть на странице</li>
+                                        <li>Применяются к тегам с прописаным определённым классом(можно применять к
+                                            неограниченому
+                                            кол-ву тегов)</li>
+                                        <li>Применяются к тегам с прописаным определённым id (два тега с одинаковым id
+                                            быть не может)
+                                        </li>
+                                        <li>Применяются к конкретному тегу</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>(selector1,selector2)</li>
+                                        <li>div, span {...
+                                            }
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="color">
+                                        < div>...< /div>
+                                    </a><br>
+                                    < p>...< /p><br>
+                                            <a class="color">
+                                                < div><br>
+                                                    <a class="margin10px color">
+                                                        < span>...< /span>
+                                                    </a><br>
+                                                    <a class="color">
+                                                        < /div>
+                                                    </a><br>
+                                                    <a class="color">
+                                                        < span>...< /span>
+                                                    </a><br>
+                                                    < p>...< /p>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Селектор "ИЛИ". Применится ко всем типам елементов на странице
+                                        которые
+                                        указаны</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            (selector1 > selector2)
+                                        </li>
+                                        <li>div > span {...}</li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                    < div>...< /div><br>
+                                            < div><br>
+                                                <a class="margin10px color">
+                                                    < span>...< /span>
+                                                </a><br>
+                                                <a class="margin10px color">
+                                                    < span>...< /span>
+                                                </a><br>
+                                                < /div>
+                                                    <br>
+                                                    < div><br>
+                                                        <a class="margin10px">
+                                                            < p>
+                                                        </a><br>
+                                                        <a class="margin14px">
+                                                            < span>...< /span>
+                                                        </a><br>
+                                                        <a class="margin10px">
+                                                            < /p>
+                                                        </a><br>
+                                                        < /div>
+
+                                </td>
+                                <td>
+                                    <a class="margin10px">Прямая вложенность. Применится ко всем елементам selector2
+                                        которые находятся
+                                        внутри selector1 непосредственно</a>
+
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            (selector1 selector2)
+                                        </li>
+                                        <li>div span {...}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < div><br>
+                                                <a class="margin10px color">
+                                                    < span>...< /span>
+                                                </a><br>
+                                                <a class="margin10px color">
+                                                    < span>...< /span>
+                                                </a><br>
+                                                < /div>
+                                                    <br>
+                                                    < div><br>
+                                                        <a class="margin10px">
+                                                            < p>
+                                                        </a><br>
+                                                        <a class="margin14px color">
+                                                            < span>...< /span>
+                                                        </a><br>
+                                                        <a class="margin10px">
+                                                            < /p>
+                                                        </a><br>
+                                                        < /div>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Любая вложенность. Применится ко всем елементам selector2
+                                        которые находятся
+                                        внутри selector1 (включая косвенную вложенность) </a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            (selector1+selector2)
+                                        </li>
+                                        <li>div+span {...}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < div>
+                                                < /div>
+                                                    <br>
+                                                    <a class="color">
+                                                        < span>...< /span>
+                                                    </a><br>
+                                                    < div><br>
+                                                        <a class="margin10px">
+                                                            < p>
+                                                        </a><br>
+                                                        <a class="margin14px">
+                                                            < span>...< /span>
+                                                        </a><br>
+                                                        <a class="margin10px">
+                                                            < /p>
+                                                        </a><br>
+                                                        < /div><br>
+                                                            <a class="color">
+                                                                < span>...< /span>
+                                                            </a><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Следующий елемент. Применится ко всем елементам selector2
+                                        которые находятся
+                                        сразу
+                                        после selector1 </a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            (selector1~selector2)
+                                        </li>
+                                        <li>div~span {...}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < div>
+                                                < /div>
+                                                    <br>
+                                                    <a class="color">
+                                                        < span>...< /span>
+                                                    </a><br>
+                                                    <a class="color">
+                                                        < span>...< /span>
+                                                    </a><br>
+                                                    < div><br>
+                                                        <a class="margin10px">
+                                                            < p>
+                                                        </a><br>
+                                                        <a class="margin14px">
+                                                            < span>...< /span>
+                                                        </a><br>
+                                                        <a class="margin10px">
+                                                            < /p>
+                                                        </a><br>
+                                                        < /div><br>
+                                                            <a class="color">
+                                                                < span>...< /span>
+                                                            </a><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Следующий елемент. Применится ко всем елементам selector2
+                                        которые находятся
+                                        подряд после selector1 </a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            selector[attribute]
+                                        </li>
+                                        <li>input[name]</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < input type="text" /><br>
+                                            <a class="color">
+                                                < input type="text" name="name">
+                                            </a><br>
+                                            <a class="color">
+                                                < input type="text" name="sur">
+                                            </a><br>
+                                            <a class="color">
+                                                < input type="password" name="pass" /></a><br>
+                                            <a class="color">
+                                                < input type="number" name="num" /></a><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Присутствие атрибута. Применится ко всем елементам у которых
+                                        есть атрибут
+                                        attribute </a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            selector[attribute="val"]
+                                        </li>
+                                        <li>input[type="text"]</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            <a class="color">
+                                                < input type="text" /></a><br>
+                                            <a class="color">
+                                                < input type="text" name="name">
+                                            </a><br>
+                                            <a class="color">
+                                                < input type="text" name="sur">
+                                            </a><br>
+                                            < input type="password" name="pass" /><br>
+                                            < input type="number" name="num" /><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Значение атрибута равно. Применится ко всем елементам у
+                                        которых есть
+                                        определённый атрибут и он равен val</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            selector[attribute*="val"]
+                                        </li>
+                                        <li>input[type*="um"]</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < input type="text" /><br>
+
+                                            < input type="text" name="name">
+                                                <br>
+
+                                                < input type="text" name="sur">
+                                                    <br>
+                                                    < input type="password" name="pass" /><br>
+                                                    <a class="color">
+                                                        < input type="number" name="num" /></a><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Значение атрибута содержит. Применится ко всем елементам у
+                                        которых
+                                        определённый атрибут содержит определённое слово val</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+
+                                            selector[attribute^="val"]
+                                        </li>
+                                        <li>
+                                            selector[name^="n"]
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < input type="text" /><br>
+
+                                            < input type="text" name="name"><br>
+                                                <a class="color">
+                                                    < input type="text" name="sur">
+                                                </a><br>
+
+                                                < input type="password" name="pass" /><br>
+                                                <a class="color">
+                                                    < input type="number" name="num" /></a><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Значение атрибута начинается на. Применится ко всем елементам
+                                        у которых
+                                        определённый
+                                        атрибут содержит слово которое начинается на определённую букву val</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+
+                                            selector[attribute$="val"]
+                                        </li>
+                                        <li>
+                                            input[name$="me"]
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div>...< /div><br>
+                                            < input type="text" /><br>
+                                            <a class="color">
+                                                < input type="text" name="name"><br>
+                                            </a>
+                                            < input type="text" name="sur">
+                                                <br>
+                                                < input type="password" name="pass" /><br>
+
+                                                < input type="number" name="num" /><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Значение атрибута заканчивается на. Применится ко всем
+                                        елементам у которых
+                                        определённый
+                                        атрибут содержит слово которое заканчивается на определённое слово val</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+
+                                            selector[attribute~="val"]
+                                        </li>
+                                        <li>
+                                            div[data-params~="image"]
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    < div data-params="big-image,ext,crt">...< /div><br>
+                                            <a class="color">
+                                                < div data-params="big-image,image">...< /div>
+                                            </a><br>
+                                            <a class="color">
+                                                < div data-params="image, png">...< /div>
+                                            </a><br>
+                                            < div data-params="big-image,jpg">...< /div><br>
+                                </td>
+                                <td>
+                                    <a class="margin10px">Выдиление из запятой. Применится ко всем елементам у которых
+                                        определённый
+                                        атрибут содержит val среди значений разделённых запятой</a>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Размер font-size:
+                                    <ol>
+                                        <li>
+                                            em
+                                        </li>
+                                        <li>
+                                            vw
+                                        </li>
+                                        <li>
+                                            vh
+                                        </li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li><a class="em">Пример 2em</a></li>
+                                        <li><a class="vw">Пример 2vw</a></li>
+                                        <li><a class="vh">Пример 2vh</a></li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>1em=100%. Значение в em высчитывается относительно текущего шрифта</li>
+                                        <li>Процент от ширины экрана </li>
+                                        <li>Процент от высоты экрана </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Цвет color:
+                                    <ol>
+                                        <li>
+                                            red
+                                        </li>
+                                        <li>
+                                            #FF0000
+                                        </li>
+                                        <li>
+                                            #F00
+                                        </li>
+                                        <li>
+                                            rgb(255,0,0)
+                                        </li>
+                                        <li>
+                                            rgba(255,0,0,0.5)
+                                        </li>
+                                        <li>
+                                            hsl(0,100%,50%)
+                                        </li>
+                                        <li>
+                                            hsla(0,100%,50%,0.5)
+                                        </li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li><a class="color">Пример red</a></li>
+                                        <li><a class="FF0000">Пример #FF0000</a></li>
+                                        <li><a class="F00">Пример #F00</a></li>
+                                        <li><a class="rgb">Пример rgb(255,0,0)</a></li>
+                                        <li><a class="rgba">Пример rgba(255,0,0,0.5)</a></li>
+                                        <li><a class="hsl">Пример hsl(0,100%,50%)</a></li>
+                                        <li><a class="hsla">Пример hsla(0,100%,50%,0.5)</a></li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    Способы задачи значений:
+                                    <ol>
+                                        <li>По названию(константа цвета)</li>
+                                        <li>По шестнадцатеричному значению</li>
+                                        <li>По шестнадцатеричному значению(сокращенная форма). Каждый символ следует
+                                            удваивать.</li>
+                                        <li>По десятеричному значению</li>
+                                        <li>По десятеричному значению с альфа каналом(определяет непрозрачность
+                                            элемента)</li>
+                                        <li>Установка цвета по цветовому кругу Итана</li>
+                                        <li>Установка цвета по цветовому кругу Итана с альфа каналом(определяет
+                                            непрозрачность элемента)
+                                        </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Толщина font-weight
+                                    <ol>
+                                        <li>bolder</li>
+                                        <li>lighter</li>
+                                        <li>100...900</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li><a class="bolder">Пример bolder</a></li>
+                                        <li><a class="lighter">Пример lighter</a></li>
+                                        <li><a class="numbers">Пример 200</a></li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Делает текст более жирным</li>
+                                        <li>Делает текст более тонким</li>
+                                        <li>Варианты установки толщины текста - цифрами</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Наклон font-style:
+                                    <ul>
+                                        <li>oblique</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <a class="oblique">Пример oblique</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Наклонное начертание. Образуется путем наклона обычных знаков вправо.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Шрифт font-family:
+                                    <ol>
+                                        <li>arial</li>
+                                        <li>verdana</li>
+                                        <li>helvetica</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li><a class="arial">Пример Arial</a></li>
+                                        <li><a class="verdana">Пример Verdana</a></li>
+                                        <li><a class="helvetica">Пример Helvetica</a></li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Дает возможность выбрать конкретный шрифт который мы хотим использовать</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Линии text-decoration:
+                                    <ol>
+                                        <li>none</li>
+                                        <li>overline</li>
+                                        <li>underline</li>
+                                        <li>line throw</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li><a class="none">Пример None</a></li>
+                                        <li><a class="overline">Пример Overline</a></li>
+                                        <li><a class="underline">Пример Underline</a></li>
+                                        <li><a class="line-through">Пример line-through</a></li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано
+                                            по умолчанию.
+                                        </li>
+                                        <li>Линия проходит над текстом</li>
+                                        <li>Устанавливает подчеркнутый текст</li>
+                                        <li>Создает перечеркнутый текст </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>text-indent</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <p class="text-indent">Пример text-indent 36px</p>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Устанавливает величину отступа первой строки блока текста
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Высота строки:
+                                    <ul>
+                                        <li>line-height</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="line-height">Пример line-height 36px</a>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Устанавливает межстрочный интервал текста, отсчет ведется от базовой линии
+                                            шрифта
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Расстояние между буквами:
+                                    <ul>
+                                        <li>letter-spacing</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="letter-spacing">Пример letter-spacing 36px</a>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Определяет интервал между символами в пределах элемента</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Расстояние между словами:
+                                    <ul>
+                                        <li>word-spacing</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="word-spacing">Пример word-spacing 36px</a>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает интервал между словами</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Отбрасывание тени:
+                                    <ul>
+                                        <li>text-shadow x y r color</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="text-shadow">Пример text-shadow:3px 3px 2px blue</a>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Добавляет тени к тексту</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Расстояние между словами:
+                                    <ul>
+                                        <li>word-spacing</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <a class="word-spacing">Пример word-spacing 36px</a>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает интервал между словами</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    Теги
+                                    <ol>
+                                        <li>
+                                            < div>
+                                                < /div>
+                                        </li>
+                                        <li>
+                                            < span>
+                                                < /span>
+                                        </li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <div class="border">Пример div</div>
+                                    <span class="border">Пример span</span>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Блочный элемент. Занимает всю ширину родителя</li>
+                                        <li>Строчный элемент. Занимает ровно столько места сколько его содержимое</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-color
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-color">
+                                    <ul>
+                                        <li>Пример background-color: red</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает цвет фона</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-image
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color">
+                                    <div>Пример background-image</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает на фон картинку</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-size
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color background-size">
+                                    <div>Пример background-size: 100px</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает размер фона</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-size
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color background-size2">
+                                    <div>Пример background-size: auto 100px</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает ширину автоматически, а высота задана</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-size: cover
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color cover">
+                                    <div>Пример background-size: cover</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Берет минимальный размер картинки, при котором картинка полностью покрывает
+                                            элемент</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-size: contain
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color contain">
+                                    <div>Пример background-size: contain</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Берет максимальный размер картинки, при котором картинка полностью
+                                            помещается в элемент</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-position: x(width) y(height) или спец значения
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="background-image color position">
+                                    <div>Пример background-position: 20px 20px</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Определяет положение картинки от которой идет дублирование</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-repeat:
+                                        </li>
+                                        repeat-x<br>
+                                        repeat-y<br>
+                                        no-repeat<br>
+                                    </ul>
+                                </td>
+                                <td class="background-image color background-size repeat">
+                                    <div>Пример background-repeat:no-repeat</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Устанавливает повторяемость фона</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background-attachment:
+                                        </li>
+                                        scroll - не закрепленно<br>
+                                        fixed - закрепленно<br>
+                                    </ul>
+                                </td>
+                                <td class="background-image color attachment">
+                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum
+                                        aperiam, facere natus fuga exercitationem tempora autem ad voluptates illo,
+                                        totam velit delectus nostrum accusantium culpa pariatur sed omnis a dolores
+                                        corporis voluptate vitae minus? Beatae autem repellat, sint, voluptatibus at
+                                        cumque esse debitis corrupti itaque, consequatur commodi perspiciatis fugit
+                                        quisquam eum praesentium veritatis harum consectetur quae ducimus earum deleniti
+                                        laborum! Mollitia voluptas et repudiandae soluta cupiditate est ipsum minus
+                                        obcaecati enim consequuntur adipisci blanditiis ullam sunt molestias porro,
+                                        cumque dolore eligendi maxime? Numquam nostrum dolorem tempora, commodi
+                                        aspernatur voluptatum quos voluptate expedita iste et temporibus laudantium,
+                                        quisquam facere, architecto blanditiis sunt eum illo ullam consequatur? Ullam
+                                        distinctio autem officiis cumque! Earum facere natus perspiciatis quia ratione
+                                        adipisci assumenda quisquam impedit itaque vel est recusandae voluptatem animi
+                                        quod molestiae delectus, sequi praesentium provident, voluptas necessitatibus
+                                        blanditiis sapiente? Dolore dolores esse velit quibusdam odio minima sed, amet
+                                        corrupti dicta quasi voluptatum. Aut non eaque id ducimus veniam recusandae esse
+                                        vero repudiandae quod asperiores ratione perferendis animi quibusdam doloremque
+                                        ab quasi incidunt, eligendi dignissimos dicta! Doloribus assumenda molestias
+                                        quos nostrum et distinctio quasi, eos accusantium libero cupiditate quidem
+                                        voluptatem ipsam temporibus? Minus explicabo obcaecati ab praesentium rem ut
+                                        fugiat neque mollitia ullam quos! Veniam, ducimus! Minima itaque nemo possimus
+                                        maxime alias sequi culpa eveniet neque aliquid corrupti, nihil unde blanditiis
+                                        necessitatibus mollitia quo molestias, vero, officiis veniam est! Quos incidunt
+                                        numquam neque odit tempore aliquid natus, voluptatibus accusamus distinctio at
+                                        enim, pariatur minima ipsa nulla repellat voluptate architecto corrupti?
+                                        Laboriosam quos eaque laborum! Nihil dolores minima sint dolore rerum corrupti,
+                                        illum inventore nemo cum quisquam voluptatum laboriosam, sunt ratione
+                                        exercitationem? Eaque excepturi asperiores itaque velit ipsam repellendus
+                                        laudantium facilis quam? Impedit, cum? Fuga, excepturi laboriosam eum eveniet
+                                        doloribus exercitationem nulla corporis eligendi amet voluptatibus deserunt
+                                        nesciunt pariatur quia, officia iusto veritatis sint unde modi, suscipit porro
+                                        debitis. Placeat, asperiores. Quasi earum, voluptatibus facere excepturi debitis
+                                        animi ab numquam dolore provident delectus omnis beatae accusamus error vel!
+                                        Quae nisi beatae vel adipisci reiciendis et mollitia ut, vero quaerat at
+                                        tenetur, possimus consequuntur modi ipsam quisquam. Officiis, dolores
+                                        repellendus. Ipsum quasi suscipit dolorum adipisci natus corporis, quaerat
+                                        excepturi illum autem perspiciatis accusamus fugit voluptas soluta fugiat
+                                        asperiores eum maiores amet quam. Tempore cupiditate quas laboriosam, ea, quia,
+                                        eligendi deleniti sed dicta explicabo natus quasi. Quae ipsam dolor molestiae
+                                        quo laboriosam architecto quidem amet incidunt ut, minus maiores in similique
+                                        vel, autem perferendis tempora adipisci unde officia sapiente rem fugiat aut
+                                        labore culpa? Vel dolor quae aut libero ex, enim quidem hic nisi nostrum
+                                        consectetur ullam optio, aliquam doloribus exercitationem veniam sapiente
+                                        excepturi fugit corrupti quasi dolore odit! At officiis culpa illum perferendis
+                                        totam animi sequi laboriosam hic eaque mollitia eligendi obcaecati voluptas
+                                        itaque quasi dolor, quidem harum error sapiente architecto! Officiis,
+                                        consectetur laudantium sapiente iusto ut incidunt autem. Non tenetur natus
+                                        itaque sed id cumque, facere porro quisquam? Et repudiandae tempora illo, iste
+                                        doloremque magni! Iste temporibus, laudantium adipisci nisi repudiandae, fugiat
+                                        numquam accusantium dicta quisquam porro explicabo magnam fuga, quae mollitia
+                                        nihil saepe.</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Крепление фона</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            background: red url("...") center no-repeat scroll;
+                                        </li>
+                                        Запись в одну строку
+                                    </ul>
+                                </td>
+                                <td class="background-image color background">
+                                    <div>Пример</div>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Способ записи всех свойств( кроме размера size) в background: </li>
+                                        </ol>
+                                </td>
+                            </tr>
+                            <tr class="rowStyle">
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Неколько картинок на странице
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="image">
+
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>несколько картинок с разным положением</li>
+                                        </ol>
+                                </td>
+                            </tr>
+                        </table>
+                        <footer>
+                            &copy Hillel 2021
+                        </footer>
+                    </td>
+                </tr>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>

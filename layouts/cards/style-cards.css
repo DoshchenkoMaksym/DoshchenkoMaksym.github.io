@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+ width: 1000px;
+ 
+ margin: 0 auto;
+ text-align: center;
+}
+.card {
+width: 250px;
+height: 500px;
+border: 1px solid black;
+display: inline-block;
+}
+
+.center {
+position: absolute;
+left: 50%;
+background-color: white;
+margin-left: -125px;
+top: 150px;
+z-index: 5;
+}
+
+.x {
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    margin-left:50px;
+    top: 100px;
+    z-index: 4;
+    }
+
+    .y {
+        position: absolute;
+    right: 50%;
+    background-color: white;
+    margin-right: 50px;
+    top: 100px;
+    z-index: 4;
+    }
+
+    .x-2 {
+        position: absolute;
+        left: 50%;
+        background-color: white;
+        margin-left:100px;
+        top: 50px;
+        z-index: 3;
+        }
+    
+        .y-2 {
+            position: absolute;
+        right: 50%;
+        background-color: white;
+        margin-right: 100px;
+        top: 50px;
+        z-index: 3;
+        }

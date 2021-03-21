@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    position: relative;
+    
+}
+section {
+    background-color: #fefefe;
+}
+.header {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+    box-sizing: border-box;
+}
+.mercy {
+    background-color:#80b7b3 ;
+    
+    height: 178px;
+    width: 295px;
+    margin: 0 auto;
+    box-shadow: 0px 30px 80px -40px black;
+   position: absolute;
+   z-index: 10;
+   left:572.5px;
+   bottom:155px;
+   padding-bottom: 25px;
+  
+   
+}
+.mercy h2{
+    color: white;
+    font-size: 68px;
+    padding: 90px 42px 0px 42px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Playfair display";
+}
+.story {
+    letter-spacing: 37.8px;
+    font-size: 189px;
+    margin: 0 auto;
+    opacity: 0.1;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    font-family: "Poppins";
+}
+
+.left-bar {
+   padding-left: 75px;
+   
+   display: inline-block;
+}
+.travel {
+    font-family: "Poppins";
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+}
+.left-bar-text-1 {
+    width: 430px;
+    font-size: 36px;
+    font-family: "Playfair display";
+    font-style: normal;
+    padding-top: 28px;
+    
+    
+}
+.left-bar-text-2 {
+    width: 408px;
+    font-size: 24px;
+    font-family: "Playfair display";
+    font-style: normal;
+    padding-top: 80px;
+   
+    line-height: 40px;
+    padding-bottom: 60px;
+    opacity: 0.8;
+}
+.left-bar-text-3 {
+    width: 408px;
+    font-size: 24px;
+    font-family: "Playfair display";
+    font-style: normal;
+    opacity: 0.8;
+   
+    line-height: 40px;
+    padding-bottom: 42px;
+    }
+
+    .button {
+        width: 199px;
+        height: 44px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2.8px;
+        background-color: #80b7b3;
+        line-height: 44px;
+        border-radius: 22px;
+        text-align: center;
+        box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+        margin-bottom: 75px;
+    }
+    .button a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+    .margin-142{
+        margin-left: 142px;
+    }
+    .right-bar {
+        display: inline-block;
+        
+        position: relative;
+        vertical-align: top;
+    }
+    .img-cont {
+        width: 700px;
+        height: 573px;
+        border: 15px solid #ffffff;
+        background-size: cover;
+        box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+        position: absolute;
+        top:30px;
+        left:100px;
+        overflow: hidden;
+    }
+    .img {
+        width: 740px;
+        height: 573px;
+        
+    }
+    .mountains {
+        background-image: url("kawah-ijen-volcano.jpg");
+        width: 685px;
+        height: 600px;
+        background-size: cover;
+        position: absolute;
+        border-top: 15px solid #ffffff;
+        border-bottom: 15px solid #ffffff;
+        border-left: 15px solid #ffffff;
+        top:30px;
+        left:168px;
+        
+        box-sizing: border-box;
+    }
+    .block-in-mountains {
+        width: 373px;
+        height: 248px;
+        box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+        border: 15px solid #ffffff;
+        position: absolute;
+        background-color: #d6b29c;
+        box-sizing: border-box;
+        top:128px;
+        left:34px;
+    }
+    .section-2{
+        background-color: #ffffff;
+        position: relative;
+        height: 700px;
+        
+    }
+    .left-bar-2{
+        padding-top: 60px;
+        box-sizing: border-box;
+    }
+    .grey-block {
+        width: 429px;
+        height: 286px;
+        box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+        border: 15px solid #ffffff;
+        background-color: #ced6d9;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 10;
+        left:250px;
+    }
+    .vin-diesel {
+        width: 751px;
+        height: 313px;
+       
+        box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+        background-color: #ffffff;
+        
+        line-height: 46px;
+        padding: 66px 101px 123px 99px;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 11;
+        left:440px;
+        top:300px;
+      
+    }
+    .vin-diesel-text {
+        font-size: 26px;
+        font-style: italic;
+    }
+    .diagonal-line {
+        background-color:#ffffff;
+        background-image: linear-gradient(to bottom right, transparent 49.5%, #f2f2f2, transparent 50.5%);
+        background-repeat: no-repeat;
+        width: 660px;
+        height:660px;
+        
+        position: absolute;
+        top: 60px;
+      left:220px;
+        z-index:9;
+        opacity: 0.5;
+    }
+    .diagonal-line2 {
+        background-color:#ffffff;
+        background-image: linear-gradient(to bottom right, transparent 49.5%, #f2f2f2, transparent 50.5%);
+        background-repeat: no-repeat;
+        width: 720px;
+        height:720px;
+       
+        position: absolute;
+       top: 1px;
+      left:345px;
+      z-index:8;
+    }
+    .quote {
+        font-family: "Poppins";
+        text-transform: uppercase;
+        opacity: 0.6;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        position: absolute;
+        left:730px;
+        z-index: 12;
+        top:100px;
+    }
+    .section-2-lorem {
+        width: 380px;
+        font-size: 36px;
+        font-family: "Playfair display";
+        font-style: normal;
+        position: absolute;
+        z-index: 12;
+        left:730px;
+        top:127px;
+    }
+    .vin-diesel-in {
+            font-family: "Poppins";
+            font-style: normal;
+            text-transform: uppercase;
+            opacity: 0.8;
+            font-size: 14px;
+            letter-spacing: 2.8px;
+            font-weight: 500;
+            
+            
+        }
+        .years {
+            font-family: "Poppins";
+            font-style: normal;
+            text-transform: uppercase;
+            opacity: 0.8;
+            font-size: 14px;
+            letter-spacing: 2.8px;
+            font-weight: 500;
+            display: inline-block;
+        }
+        .z-index {
+            position: absolute;
+            bottom:-92px;
+            left:298px;
+        }
+        .section-3{
+            background-image: url("photo-1418065460487-3e41a6c84dc5.png");
+            background-size: cover;
+            height: 630px;
+            position: relative;
+            box-sizing: border-box;
+        }
+        .updates {
+            width: 670px;
+            height: 200px;
+            text-align: center;
+            background-color: #273d46;
+            position: absolute;
+            top:152px;
+            left:386px;
+            opacity: 0.9;
+            padding: 58px 0px;
+        }
+        .updates span{
+            color: white;
+            opacity: 0.8;
+            line-height: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Poppins";
+            display: block;
+            width: 440px;
+           
+            text-align: center;
+            position: relative;
+            left:120px;
+        }
+        .name {
+            width: 250px;
+            height: 45px;
+            border-radius: 22px;
+            border: 1px solid #3a494f;
+            background-color: #000000;
+            opacity: 0.2;
+            outline: none;
+        }
+        input[placeholder="name"] {
+            opacity: 0.6;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2.8px;
+            font-size: 14px;
+            padding-left: 37px;
+            box-sizing: border-box;
+            font-family: "Poppins";
+        }
+        .email {
+            width: 250px;
+            height: 45px;
+            border-radius: 22px;
+            border: 1px solid #3a494f;
+            background-color: #000000;
+            opacity: 0.2;
+            outline: none;
+        }
+        input[placeholder="email"] {
+            opacity: 0.6;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2.8px;
+            font-size: 14px;
+            padding-left: 37px;
+            box-sizing: border-box;
+            font-family: "Poppins";
+        }
+        .input-email {
+            position: absolute;
+            top:156px;
+           right: 355px;
+            
+        }
+        .input-name {
+            position: absolute;
+            top:156px;
+            left: 355px;
+            
+        }
+        .submit {
+            width: 232px;
+            height: 44px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 2.8px;
+            background-color: #80b7b3;
+            line-height: 44px;
+            border-radius: 22px;
+            text-align: center;
+           
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2.8px;
+            color: #ffffff;
+            border: none;
+        }
+        .subscribe {
+            
+            position: absolute;
+            top:225px;
+            left:220px;
+        }

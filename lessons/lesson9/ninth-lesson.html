@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-ninth.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="logo"></div>
+                <h1>Lesson nine</h1>
+            </div>
+            <h2>Контакты:</h2>
+            <nav class="navigator">
+                <a class="inst" href="https://www.instagram.com/doshchenko_/" target="_blank">Instagram</a>
+                <a class="face" href="https://www.facebook.com/max.doschenko" target="_blank">Facebook</a>
+            </nav>
+        </header>
+        <main>
+            <table class="table">
+                <tr>
+                    <td class="leftbar">
+                        <div><a class="button" href="../../index.html">Главная</a></div>
+                        <div><a class="button" href="../../purpuse/purpuse.html">Мои цели</a></div>
+                        <div><a class="button" href="../lesson1/first-lesson.html">Мое первое занятие</a></div>
+                        <div><a class="button" href="../lesson2/second-lesson.html">Мое второе занятие</a></div>
+                        <div><a class="button" href="../lesson3/third-lesson.html">Мое третье занятие</a></div>
+                        <div><a class="button" href="../lesson4/fourth-lesson.html">Мое четвёртое занятие</a></div>
+                        <div><a class="button" href="../lesson5/fifth-lesson.html">Мое пятое занятие</a></div>
+                        <div><a class="button" href="#">Мое шестое занятие</a></div>
+                        <div><a class="button" href="../lesson7/sevens-lesson.html">Мое седьмое занятие</a></div>
+                        <div ><a class="button" href="../lesson9/ninth-lesson.html">Мое восьмое занятие</a></div>
+                        <div class="mainButton"><a class="button" href="#">Мое девятое занятие</a></div>
+                        <div><a class="button" href="../../makets/makets.html">Макеты</a></div>
+                    </td>
+                    <td class="content">
+                        <table>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Пример</th>
+                                <th>Описание</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            элемент:first-child
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="first-child">
+                                    .first-child b:first-child {
+                                    color: red;
+                                    }
+                                    <p><b>Lorem ipsum</b> dolor sit amet, <b>consectetuer</b>
+                                        adipiscing <b>elit</b>, sed diem nonummy nibh euismod tincidunt ut lacreet
+                                        dolore magna aliguam erat volutpat.</p>
+                                    <p><a>Ut wisis enim</a> ad minim veniam, <b>quis nostrud</b>
+                                        exerci tution ullamcorper suscipit lobortis nisl ut aliquip ex ea <b>commodo
+                                            consequat</b>.</p>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :first-child применяет стилевое оформление к первому дочернему
+                                            элементу своего родителя. Если описанный элемент не первый, то не пременится
+                                            вовсе.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            элемент:first-of-type
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="first-of-type">
+                                        .first-of-type span:first-of-type {
+                                        background-color:green;
+                                        }
+                                        <span>Это span первый!</span>
+                                        <span>Этот span нет. :(</span>
+                                        <span>Этот span нет. :(</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Псевдо-класс :first-of-type применяет заданный стиль к элементу, который является
+                                    первым дочерним элементом, определенного типа, в родителе.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            элемент:last-child
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="last-child">
+                                    .first-child b:first-child {
+                                    color: red;
+                                    }
+                                    <p><b>Lorem ipsum</b> dolor sit amet, <b>consectetuer</b>
+                                        adipiscing <b>elit</b>, sed diem nonummy nibh euismod tincidunt ut lacreet
+                                        dolore magna aliguam erat volutpat.</p>
+                                    <p><a>Ut wisis enim</a> ad minim veniam, <b>quis nostrud</b>
+                                        exerci tution ullamcorper suscipit lobortis nisl ut aliquip ex ea <b>commodo
+                                            consequat</b>.</p>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :last-child применяет стилевое оформление к последнему дочернему
+                                            элементу своего родителя.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            элемент:last-of-type
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="last-of-type">
+                                        .first-of-type span:first-of-type {
+                                        background-color:green;
+                                        }
+                                        <span>Это span первый!</span>
+                                        <span>Этот span нет. :(</span>
+                                        <span>Этот span последний</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Псевдо-класс :last-of-type применяет заданный стиль к элементу, который является
+                                    последним дочерним элементом, определенного типа, в родителе.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            элемент:nth-of-type(n)
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="nth-of-type">
+                                        .nth-of-type p:nth-of-type(even){
+                                        color: red;
+                                        }
+                                        <div>Этот элемент не учитывается.</div>
+                                        <p>Первый параграф.</p>
+                                        <p>Второй параграф.</p>
+                                        <div>Этот элемент не учитывается.</div>
+                                        <p>Третий параграф.</p>
+                                        <p>Четвёртый параграф.</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    Псевдоклас находит один или более элементов с заданным тегом, основываясь на их
+                                    позиции среди группы соседних элементов. В скобках так же можно вставлять значения -
+                                    odd (нечётный) even(чётный).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :disabled
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :disabled находит любой отключенный элемент.
+                                    input:disabled
+                                    Выберет все отключенные поля ввода
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :enabled
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :enabled находит любой включенный элемент.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :required
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :required находит любые < input> элементы, имеющие атрибут required
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :optional
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :optional находит любые < input> элементы, у которых не установлен
+                                        атрибут required
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :invalid
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :invalid находит любые < input> или < form> элементы, контент
+                                            которых не проходит валидацию, в соответствии с типом поля.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :valid
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :valid находит любые < input> или < form> элементы, контент которых
+                                            валиден, в соответствии с типом поля.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :empty
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    псевдокласс :empty находит любой элемент, у которого нет потомков. Учитываются
+                                    элементы и текст (включая пробелы). Комментарии не повлияют на то, что элемент будет
+                                    рассматриваться как не пустой.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :focus
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    CSS псевдокласс :focus применяется, когда элемент (такой как input формы) получает
+                                    фокус. Обычно он активируется при клике мышью пользователем или при выборе элемента
+                                    с использованием клавиши "tab" на клавиатуре.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :not()
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    Отрицательный CSS псевдокласс (en-US), :not(X) - функция, принимающая простой
+                                    селектор X в качестве аргумента. Он находит элементы, не соответствующие селектору.
+                                    X не должен содержать других отрицательных селекторов.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Свойство cursor
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    cursor: pointer
+                                    <div class="cursor">
+                                        Наведи на меня
+                                    </div>
+                                </td>
+                                <td>
+                                    Устанавливает форму курсора, когда он находится в пределах элемента. Вид курсора
+                                    зависит от операционной системы и установленных параметров.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Свойство user-select
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    user-select:none
+                                    <div class="cursor user-select">
+                                        попробуй выделить
+                                    </div>
+                                </td>
+                                <td>
+                                    Свойство CSS user-select определяет может ли пользователь выбрать текст.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Псевдокласс :active
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    :active
+                                    <div class="cursor user-select">
+                                        Нажми на меня
+                                    </div>
+                                </td>
+                                <td>
+                                    Псевдокласс :active соответствует элементу в момент, когда он активируется
+                                    пользователем. Он позволяет странице среагировать, когда элемент активируется.
+                                    Взаимодействие элемента с мышью - это, как правило, время между нажатием и
+                                    отпусканием пользователем кнопки мыши.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            ::after
+                                        </li>
+                                        <li>
+                                            ::before
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <div class="after">
+                                                <p>After</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="before">
+                                                <p>Before</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            В CSS, ::after создаёт псевдоэлемент, который является последним потомком
+                                            выбранного элемента. Часто используется для добавления косметического
+                                            содержимого в элемент с помощью свойства content. По умолчанию является
+                                            инлайновым.
+                                        </li>
+                                        <li>
+                                            Псевдоэлемент :before применяется для отображения желаемого контента до
+                                            содержимого элемента, к которому он добавляется.
+                                        </li>
+                                        <li>
+                                            Важно задать свойство content: '', иначе элемент не будет отображатся
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Свойство списка list-style
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="list-style">
+                                    list-style: square;
+                                    <ul>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Универсальное свойство, позволяющее одновременно задать стиль маркера, его
+                                    положение, а также изображение, которое будет использоваться в качестве маркера.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Свойство списка list-style
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="list-style-2">
+                                    list-style-type: none;
+                                    <ul>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                        <li>ПРИМЕР</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                   Так же с помошью Before можно задать свои точки и оформление им
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+            </table>
+            <footer>
+                &copy Hillel 2021
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

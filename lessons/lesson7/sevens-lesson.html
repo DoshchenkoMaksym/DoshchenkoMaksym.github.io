@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-seven.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="logo"></div>
+                <h1>Lesson Seven</h1>
+            </div>
+            <h2>Контакты:</h2>
+            <nav class="navigator">
+                <a class="inst" href="https://www.instagram.com/doshchenko_/" target="_blank">Instagram</a>
+                <a class="face" href="https://www.facebook.com/max.doschenko" target="_blank">Facebook</a>
+            </nav>
+        </header>
+        <main>
+            <table class="table">
+                <tr>
+                    <td class="leftbar">
+                        <div><a class="button" href="../../index.html">Главная</a></div>
+                        <div><a class="button" href="../../purpuse/purpuse.html">Мои цели</a></div>
+                        <div><a class="button" href="../lesson1/first-lesson.html">Мое первое занятие</a></div>
+                        <div><a class="button" href="../lesson2/second-lesson.html">Мое второе занятие</a></div>
+                        <div><a class="button" href="../lesson3/third-lesson.html">Мое третье занятие</a></div>
+                        <div><a class="button" href="../lesson4/fourth-lesson.html">Мое четвёртое занятие</a></div>
+                        <div><a class="button" href="../lesson5/fifth-lesson.html">Мое пятое занятие</a></div>
+                        <div><a class="button" href="../lesson6/six-lesson.html">Мое шестое занятие</a></div>
+                        
+                        <div class="mainButton"><a class="button" href="#">Мое седьмое занятие</a></div>
+                        <div><a class="button" href="../lesson8/eight-lesson.html">Мое восьмое занятие</a></div>
+                        <div><a class="button" href="../lesson9/ninth-lesson.html">Мое девятое занятие</a></div>
+                        <div ><a class="button" href="../../makets/makets.html">Макеты</a></div>
+                    </td>
+                    <td class="content">
+                        <table>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Пример</th>
+                                <th>Описание</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Тег < form>
+                                                < /form>
+                                        </li>
+                                    </ul>
+
+                                </td>
+                                <td></td>
+                                <td>
+                                    <ul>
+                                        <li>Тег < form> устанавливает форму на веб-странице. Форма предназначена для
+                                                обмена данными между пользователем и сервером.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Запросы в forme:
+                                    <ul>
+                                        <li>get</li>
+                                        <li>post</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>GET - Запрашивает данные из указанного ресурса. Осуществляет GET-запрос к
+                                            серверу, то есть все данные запроса передаются в строке запроса.</li>
+                                        <li> Метод запроса POST предназначен для запроса/ В отличие от GET-запросов
+                                            данные POST-запросов передаются не в строке запроса, а в его теле.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Атрибуты в form
+                                    <ul>
+                                        <li>action="url"</li>
+                                        <li>method="post/get"</li>
+                                        <li>enctype="multipart/form-dat"</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <ul>
+                                        <li>Адрес программы или документа, который обрабатывает данные формы.</li>
+                                        <li>Метод протокола HTTP.</li>
+                                        <li>Данные не кодируются. Это значение применяется при отправке файлов.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Поле ввода текста type="text"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="text"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Текстовое поле. Предназначено для ввода символов с помощью клавиатуры.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Атрибут для input - value type="text" value="Пример"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="text" value="Пример"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Атрибут отображает начальное значение в строке.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Атрибут для input - placeholder, type="text" placeholder="ПРИМЕР"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="text" placeholder="ПРИМЕР"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Атрибут отображает подсказку в строке. Исчезает если начать вводить текст.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Текстовое поле ввода пароля type="password"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="password"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Обычное текстовое поле, но отличается от него тем, что все символы
+                                            показываются звездочками. Предназначено для того, чтобы никто не подглядел
+                                            вводимый пароль.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Поле ввода чисел type="number"</br>
+                                    Имеет атрибуты
+                                    <ul>
+                                        <li>man max</li>
+                                        <li>step</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="number" min="0" max="50" step="10">min="0" max="50" step="10"
+                                        </div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Поле ввода чисел. С возможностью устанавливать диапазон и шаг.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Поле ввода чисел type="range"</br>
+                                    Имеет атрибуты
+                                    <ul>
+                                        <li>man max</li>
+                                        <li>step</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="range" min="0" max="50" step="10">min="0" max="50" step="10"
+                                        </div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Поле ввода чисел в виде ползунка в указанном диапазоне.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Текстовое поле ввода email, type="email"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="email"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Предназначено для адресов электронной почты.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Текстовое поле ввода телефона, type="tel"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="telephone"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Предназначено для телефонных номеров.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Виджет для выбора цвета. type="color"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="color"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Предназначено для выбора цвета.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Флажки. type="checkbox"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="checkbox"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Позволяют выбрать более одного варианта из предложенных.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Флажки. type="checkbox" с атрибутом checked</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="checkbox" checked></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Позволяют выбрать более одного варианта из предложенных.checked - сразу
+                                            выбран вариант
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Переключатели. type="radio"</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input name="radio" type="radio">1</div>
+                                        <div><input name="radio" type="radio">2</div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Используются, когда следует выбрать один вариант из нескольких предложенных.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Кнопка отправки type="submit" value="Пример"</li>
+                                        <li>Атрибут value меняет текст кнопки</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="submit" value="Пример"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Кнопка для отправки данных формы на сервер.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Кнопка сброса type="reset" </li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="reset"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Кнопка для возвращения данных формы в первоначальное значение.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        Атрибуты
+                                        <li>
+                                            disabled
+                                        </li>
+                                        <li>required</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="radio" disabled>1</div>
+                                        <div><input type="radio" required>2</div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Блокирует доступ и изменение поля формы.
+                                        </li>
+                                        <li>
+                                            Устанавливает поле формы обязательным для заполнения перед отправкой формы
+                                            на сервер.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li> Тег Select</li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><select name="select" id="">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Тег < select> позволяет создать элемент интерфейса в виде раскрывающегося
+                                                списка, а также список с одним или множественным выбором
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li> Тег Select c тегом optgroup </li>
+                                        <li>Атрибут внутри optgroup -label(название группы)</li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><select name="select" id="">
+                                                <optgroup>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                </optgroup>
+                                                <optgroup>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                </optgroup>
+
+                                            </select></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Тег < optgroup> представляет собой контейнер, внутри которого располагаются
+                                                теги < option> объединенные в одну группу.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li> Тег Select c тегом optgroup </li>
+                                        <li>Атрибут внутри optgroup -label(название группы)</li>
+                                        <li>Атрибут внутри optgroup -multiple(можно выбрать несколько вариантов)</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><select name="select" id="" multiple>
+                                                <optgroup label="first">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                </optgroup>
+                                                <optgroup label="second">
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                </optgroup>
+
+                                            </select></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Тег внутри < optgroup> дает название группы.
+                                        </li>
+                                        <li>
+                                            Тег внутри < select> дает выбрать несколько вариантов ответа.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li> Тег Select с атрибутом selected</li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><select name="select" id="">
+                                                <option value="1">1</option>
+                                                <option value="2" selected>2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Делает текущий пункт списка выделенным.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li> Тег textarea </li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><textarea name="" id="">Пример</textarea></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Поле < textarea> представляет собой элемент формы для создания области, в
+                                                которую можно вводить несколько строк текста.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Кнопка добавления файлов type="file" </li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="file"></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Поле для ввода имени файла, который пересылается на сервер.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Тег label</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <form action="#" method="GET">
+                                        <div><input type="text" id="label"><label for="label"><span
+                                                    class="span">dafsfs</span>Label</label></div>
+                                    </form>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Тег <label> устанавливает связь между определенной меткой, в качестве
+                                                которой обычно выступает текст, и элементом формы
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <footer>
+                &copy Hillel 2021
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

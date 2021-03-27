@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "OpenSans";
+    
 }
 
 
@@ -12,6 +13,7 @@ header nav {
     background-color: #313030;
     height: 89px;
     text-align: center;
+    
 }
 header nav a {
     display: inline-block;
@@ -24,10 +26,24 @@ header nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
-header nav a.active {
+.active {
+    background-color: #313030;
+    transition: background-color 1.2s, transform 1.2s;
+}
+
+.active:hover {
     background-color: #ff3f40;
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transform: scale(1.2);
+    text-shadow:5px 5px 20px black;
+    font-weight: bolder;
+    
 }
+
 .present {
     text-align: justify;
     padding-bottom: 60px;
@@ -47,7 +63,8 @@ header nav a.active {
     text-align: left;
     height: 117px;
     letter-spacing: 6px;
-    color:#000000
+    color:#000000;
+    
 }
 .present .head .description {
     color: #737171;
@@ -172,6 +189,19 @@ header nav a.active {
     font-size: 25px;
     color:#333333;
     opacity: 0.7;
+    transition: transform 1.2s, text-shadow 1s;
+}
+
+.choice-text:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    text-shadow:5px 5px 20px black;
+    color: #ff3f40;
+    cursor: pointer;
+    user-select: none;
+}
+.choice-text:active {
+    color:#333333;
 }
 .blocks {
     width:1351px;
@@ -190,6 +220,11 @@ header nav a.active {
     margin-bottom: 20px;
     box-sizing: border-box;
     background-color: #f5f0dd;
+    transition: transform 1.2s;
+}
+.blocks-size:hover {
+ transform:scale(1.2);
+ transition-duration: 1s;
 }
 .team {
     text-align: left;
@@ -244,6 +279,12 @@ header nav a.active {
     height: 458px;
     display: inline-block;
     background-color: #f5f0dd;
+    transition: transform 1s;
+    }
+    .big-block:hover{
+        transform:scale(1.1);
+        transition-duration: 1s;
+    
     }
 .left-block {
     display: inline-block;
@@ -269,6 +310,17 @@ header nav a.active {
         font-weight: 300;
          padding-right: 29px;
     }
+    .social-atr:hover{
+        text-shadow:5px 5px 20px black;
+        color: #ff3f40;
+        cursor: pointer;
+    }
+    .social-atr:active{
+        text-shadow:5px 5px 20px black;
+        color: black;
+        cursor: pointer;
+        user-select:none
+    }
     .blocks2 {
         width:855px;
         height:220px;
@@ -285,11 +337,14 @@ header nav a.active {
         box-sizing: border-box;
         background-color: #f5f0dd;
         vertical-align: top;
+        position: relative;
+        overflow: hidden;
+        
     }
     .blockinblock {
         display: inline-block;
         
-        width: 195px;
+        width: 100%;
         height: 37px;
         margin-top: 175px;
         background-color: #7a786e;
@@ -299,6 +354,15 @@ header nav a.active {
         line-height: 37px;
         font-weight: normal;
         font-size: 14px;
+        position: absolute;
+        
+        bottom: -37px;
+        left: 0;
+        transition:bottom 1s linear;
+    }
+    .blocks-size2:hover .blockinblock{
+        bottom: 0px;
+        transition-duration: 1s;
     }
     .subscribe {
         background-color: #f5f0dd;
@@ -415,13 +479,15 @@ header nav a.active {
         
         background-color:#2d2d2d;
         text-align: center;
-        
-        
-    }
+        transition: transform 1.2s linear;
+        }
+        .contact-info:hover{
+            transform:scale(1.2);
+        }
     .info {
        margin-top: 10px;
         
-        line-height:486.5px ;
+        
         color: white
     }
     
@@ -491,7 +557,9 @@ header nav a.active {
  border-radius: 5px;
  font-size: 18px;
  font-weight: bold;
+ transition: background-color 1s, text-shadow 1s;
 }
+
 .button2 {
     width: 214px;
     height: 79px;
@@ -523,6 +591,20 @@ header nav a.active {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.32px;
+    transition: color 1s ease, background-color 1s ease;
+   }
+   .button3:hover{
+    cursor:pointer;
+    user-select: none;
+    text-shadow: 5px 5px 20px solid black;
+    background-color: white;
+    color:#ff3f40;
+   }
+   .button3:active{
+    background-color: #ff3f40;
+    color:white;
+    
+    
    }
    .button4 {
        margin-left: 20px;
@@ -541,10 +623,28 @@ header nav a.active {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.32px;
+    transition: color 1s ease, background-color 1s ease;
+   }
+   .button4:hover{
+    cursor:pointer;
+    user-select: none;
+    text-shadow: 5px 5px 20px solid black;
+    background-color: white;
+    color:#ff3f40;
+   }
+   .button4:active{
+    background-color: #ff3f40;
+    color:white;
+    
+    
    }
 .button:hover{
     background-color: #ff3f40;
-    color:white
+    color:white;
+    text-shadow: 5px 5px 20px black;
+    transition-property:all;
+    transition-duration: 1s;
+    
 }
 
 .last-line{
@@ -561,6 +661,98 @@ header nav a.active {
     padding-bottom: 90px;
     padding-right: 49px;
 }
+.gear{
+border-radius: 50%;
+
+width:41px;
+height:41px;
+}
+.gear:hover{
+    animation-name: rolling2;
+  animation-duration:2s;
+  animation-iteration-count:1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  transition: all 1s linear;
+}
+@keyframes rolling2{
+    from{
+       transform:translate(0px) rotate(0turn);
+     }
+     to {
+       transform:translate(200px) rotate(3turn);
+     }
+   }
+   .pencil {
+    
+    width:200px;
+    height:41px;
+   }
+   .pencil_img {
+    display: inline-block;
+   
+        width:41px;
+        height:41px;
+       }
+    
+   .pencil_img:hover {
+        animation-name: rolling3;
+        animation-duration: 1s;
+        animation-iteration-count: none;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+        
+
+   }
+ 
+   @keyframes rolling-box{
+       from{
+           border-bottom:none
+       }
+       to{
+           border-bottom:3px solid black
+       }
+   }
+   @keyframes rolling3{
+    from{
+       transform:translate(0px) ;
+       
+     }
+     to {
+       transform:translate(200px);
+     }
+   }
+   .diamond:hover{
+    animation-name: rolling4;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    
+   }
+   @keyframes rolling4{
+    from{
+       transform:translate(0px) rotate(0turn);
+     }
+     to {
+       transform:translate(0px) rotate(3turn);
+     }
+   }
+   .track:hover{
+       animation-name:rolling5;
+       animation-duration:1s;
+       animation-iteration-count: none;
+       animation-fill-mode: both;
+       animation-timing-function: linear;
+   }
+   @keyframes rolling5{
+    from{
+       transform:translate(0px);
+     }
+     to {
+       transform:translate(200px);
+     }
+   }
 .text {
     padding-top: 25px;
     padding-bottom: 15px;
@@ -568,13 +760,25 @@ header nav a.active {
     font-size: 28px;
     color:#333333;
     opacity: 0.7;
+    transition: text-shadow 1s, transform 1s;
+    -webkit-transition: text-shadow 1s, -webkit-transform 1s;
+   
+}
+.text:hover {
+    transform:scale(1.2);
+    text-shadow: 5px 5px 20px black;
+    
+    transition-duration: 1s;
+    cursor: pointer;
+    user-select: none;
+    
+}
+.text:active {
+    color:#ff3f40;
 }
 .text2 {
     line-height: 28px;
     font-size: 16px;
     color:#7c7c7c
     
-}
-.active2 {
-    color: #ff3f40;
 }

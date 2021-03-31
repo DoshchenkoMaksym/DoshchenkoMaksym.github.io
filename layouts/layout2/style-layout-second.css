@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "OpenSans";
+    
 }
 header {
     background-color: #d2d2d2;
@@ -32,7 +33,7 @@ header {
 .dashed {
     border-bottom: 2px dashed black;
     box-sizing: border-box;
-    width: 630px;
+    width: 620px;
     color: white;
 }
 .container nav div{
@@ -48,6 +49,9 @@ header {
     padding-right: 17px;
     text-align: justify;
 }
+nav{
+    transition: border-bottom 1s linear, transform 1s linear, text-shadow 1s linear;
+}
 .solid {
     text-decoration: none;
     font-size: 17px;
@@ -55,8 +59,21 @@ header {
     border-bottom: 2px dashed black;
     padding-right: 17px;
     text-align: center;
+    
+}
+.solid:hover {
+    border-bottom: 2px solid black;
+    transform: scale(1.3);
+    text-shadow: 1px 1px 20px black;
+    transition-duration: 1s;
+    color: #ccc;
 }
 .about-me {
+    animation-name: hihi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
     padding-top: 60px;
     padding-bottom: 10px;
     line-height: 36px;
@@ -67,8 +84,17 @@ header {
     vertical-align:bottom;
 
 }
+@keyframes hihi{
+    from {
+        transform:translate(0px);
+    }
+    to {
+        transform:translate(750px);
+    }
+}
 .shadow-text {
     text-shadow: 4px 6px #d2d2d2;
+  
 }
 .description-about-me {
     padding-top:60px;
@@ -76,6 +102,9 @@ header {
     border-top:6px solid black ;
     border-bottom: 3px solid black;
     padding-bottom: 45px;
+    position: relative;
+    
+    z-index:1;
 }
 .img-cont {
     display: inline-block;
@@ -84,6 +113,10 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: top;
+    transition: 1s transform ease-in
+}
+.img-cont:hover {
+    transform: scale(1.2);
 }
 .img {
     width: 100%;
@@ -105,7 +138,14 @@ header {
     font-weight: bold;
     line-height: 50px;
     padding-left: 15px;
+    transition: width 1s linear;
 }
+.grad-block:hover{
+    width: 610px;
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+    }
+
 .Lorem-about-me {
     
     width: 600px;
@@ -121,6 +161,7 @@ header {
     height: 155px;
     margin-top: 25px;
     padding-bottom: 27px;
+    transition: 1s transform ease-in;
 }
 .Lorem-style{
     font-style: italic;
@@ -129,7 +170,12 @@ header {
 }
 .padding-lorem {
     padding: 33px 27px 0px 23px;
+    
 }
+.Lorem-about-me-bcg:hover {
+    transform: scale(1.2);
+}
+    
 .pupkin {
     padding-top: 27px;
     text-align: right;
@@ -157,12 +203,19 @@ header {
         font-weight: bold;
         line-height: 50px;
         padding-left: 15px;
+        transition:width 1s linear;
+    }
+    .my-skils:hover {
+       width: 450px;
+       text-shadow: 1px 1px 20px red;
+       cursor: pointer;
     }
     .tools {
         margin-top: 27px;
+        transition: width 1s linear;
     }
 .tools-properties{
-    background-color:#d2d2d2;
+    background-color:transparent;
     font-style: italic;
     font-size: 24px;
     font-weight: normal;
@@ -170,21 +223,103 @@ header {
     padding-left:17px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .photoshop {
+   transition: width 1s linear;
+    
+}
+.photoshop:hover {
     width: 405px;
+    animation-name: photo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color:#d2d2d2;
+}
+@keyframes photo{
+    from{
+        width:0px;
+    }
+    to {
+        width: 405px;
+    }
 }
 .html {
     width: 495px;
 }
+.html:hover {
+   
+    animation-name: html;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color:#d2d2d2;
+}
+@keyframes html{
+    from{
+        width:0px;
+    }
+    to {
+        width:495px;
+    }
+}
 .css{
     width: 495px;
+}
+.css:hover {
+   
+    animation-name: css;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color:#d2d2d2;
+}
+@keyframes css{
+    from{
+        width:0px;
+    }
+    to {
+        width: 495px;
+    }
 }
 .java-script {
     width: 405px;
 }
+.java-script:hover {
+   
+    animation-name: javascript;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color:#d2d2d2;
+}
+@keyframes javascript{
+    from{
+        width:0px;
+    }
+    to {
+        width: 405px;
+    }
+}
 .angular {
     width: 300px;
+}
+.angular:hover {
+   
+    animation-name: angular;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color:#d2d2d2;
+}
+@keyframes angular{
+    from{
+        width:0px;
+    }
+    to {
+        width: 300px;
+    }
 }
 .line{
     width: 530px;
@@ -240,6 +375,19 @@ header {
        border-radius: 50%;
        overflow: hidden;
        display: inline-block;
+       transform-origin:x;
+       animation-name: rotate;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+   }
+   @keyframes rotate{
+         from{
+             transform: rotateY(0turn);
+         }
+         to{
+            transform: rotateY(1turn);
+         }
    }
    .img-2 img {
     width: 180px;
@@ -262,6 +410,7 @@ header {
     margin:0 auto;
     box-sizing: border-box;
    background-color: black;
+   transition: background-image 2s linear;
 }
 .contacts {
     color:white;
@@ -270,6 +419,17 @@ header {
     font-size: 24px;
     margin-right: 68px;
     
+}
+.cont:hover{
+    text-shadow: 1px 1px 5px red;
+cursor: pointer;
+}
+.social:hover {
+text-shadow: 1px 1px 5px red;
+cursor: pointer;
+}
+.underline:hover {
+    text-shadow: 1px 1px 5px red;
 }
 .margin-top{
     margin-top: 20px;
@@ -280,6 +440,9 @@ header {
     font-size: 24px;
     vertical-align: top;
     margin-right: 140px;
+}
+.underline{
+    cursor: pointer;
 }
 .underline a{
    color: white;
@@ -295,6 +458,11 @@ header {
     background-image: radial-gradient(circle, white 45%, black 45%, black 60%, white 60%);
 border-radius: 50%;
 z-index: 4;
+transition: background-image 2s linear;
+}
+.footer-grad:hover {
+    background-image: radial-gradient(circle, #ccc 45%, red 45%, red 60%, #ccc 60%); 
+    transition-duration:2s;
 }
 .text-grad {
     margin:150px 125px;

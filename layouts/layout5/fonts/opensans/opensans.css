@@ -1,0 +1,15 @@
+@font-face{
+    font-family: "OpenaSansBold";
+    font-weight: 700;
+    src: url("OpenaSans-Bold.ttf");
+}
+@font-face{
+    font-family: "OpenaSansRegular";
+    font-weight: 400;
+    src: url("OpenaSans-Regular.ttf");
+}
+@font-face{
+    font-family: "OpenaSansLight";
+    font-weight: 300;
+    src: url("OpenaSans-Light.ttf");
+}

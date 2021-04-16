@@ -44,15 +44,6 @@ border-radius: 50%;
    
 }
 
-.flat-2:{
-content: '';
-
-position: absolute;
-top:0;
-left:-30px;
-
-}
-
 .p-txt{
     color: #4b596c;
     line-height: 40px;

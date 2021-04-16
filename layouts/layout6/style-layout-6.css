@@ -37,7 +37,7 @@
       
     }
     .top-side-2 {
-        width: 100%;
+       flex-grow: 1;
         display: flex;
       
        box-sizing: border-box;

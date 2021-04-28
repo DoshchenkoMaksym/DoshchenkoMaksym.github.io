@@ -1,0 +1,753 @@
+*{
+    padding:0;
+    margin:0;
+   
+    font-weight: 400;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.border {
+    border:1px solid red;
+}
+body{
+    padding-top: 120px;
+    
+}
+.nav{
+    
+    display: flex;
+    
+}
+.section-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-gallery{
+    width: 1400px;
+    
+}
+.header{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+    
+    
+}
+.header-position-relative{
+    position: relative;
+}
+.width-nav{
+    width: 1900px;
+    position: relative;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.nav-txt{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+   
+    text-decoration: none;
+    padding: 8px;
+    
+}
+.zoom{
+    width: 38px;
+height: 38px;
+    background-image: url(img/zoom_noactive.png);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 36px;
+}
+.zoom:active{
+    background-image: url(img/zoom_active.png);
+}
+.zoom:active .searcher{
+   display: block;
+}
+.searcher{
+    width: 260px;
+   z-index: 10;
+   display: block;
+   line-height: 40px;
+    color: #c0392b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    outline: none;
+    position: absolute;
+    right: 0;
+    bottom:-55px;
+    display: none;
+}
+input[type="search"]{
+    width: 100%;
+    outline: none;
+    color: #c0392b;
+    border: 3px solid #c0392b;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left:5px;
+}
+input[type="search"]::placeholder{
+    text-transform: uppercase;
+    color: #c0392b;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.logo{
+    flex-grow: 0;
+}
+.x{
+    position: absolute;
+    top:40px;
+    right: 0;
+}
+.nav-item:hover .nav-txt{
+    color: #c0392b;
+
+}
+.VK {
+    width: 38px;
+height: 38px;
+    background-image: url(img/vk_7382.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+.VK:hover {
+    background-image: url(img/vk_navodka_7378.png);
+}
+.facebook{
+    width: 38px;
+    height: 38px;
+        background-image: url(img/facebook_noactive.png);
+        background-size: cover;
+        border-radius: 50%;
+}
+.facebook:hover {
+    background-image: url(img/facebook_navodka_7383.png);
+}
+.inst {
+    width: 38px;
+    height: 38px;
+        background-image: url(img/instagram_noactive.png);
+        background-size: cover;
+        
+}
+.inst:hover {
+    background-image: url(img/instagram_navodka_7384.png);
+}
+
+.navbar-nav li:not(:last-child){
+    margin-right:36px;
+}
+/** cursor left **/
+.carousel-button-left{
+    bottom: 50px !important;
+    top:auto;
+    right:50%;
+    left: auto;
+    background-color: white;
+    width: 72px;
+height: 72px;
+
+border-radius: 50%;
+
+opacity: 1 !important;
+margin-right:25px;
+}
+.carousel-control-left{
+    background-image: url(img/strelka_1_4025.png);
+    background-repeat: no-repeat;
+    width: 16px;
+height: 28px;
+}
+.carousel-button-left:hover {
+    background-color: #c0392b;
+}
+.carousel-button-left:hover .carousel-control-left{
+    background-image: url(img/strelka_white.png);
+    transform: scale(-1, 1);
+}
+/** cursor left **/
+/** cursor right **/
+.carousel-button-right{
+    bottom: 50px !important;
+    top:auto;
+    left:50%;
+    right: auto;
+    background-color: white;
+    width: 72px;
+height: 72px;
+
+border-radius: 50%;
+margin-left:25px;
+opacity: 1 !important;
+}
+.carousel-control-right {
+    background-image: url(img/strelka_1_4025.png);
+    background-repeat: no-repeat;
+    width: 16px;
+height: 28px; 
+transform: scale(-1, 1);
+}
+.carousel-button-right:hover {
+    background-color: #c0392b;
+}
+.carousel-button-right:hover .carousel-control-right{
+    background-image: url(img/strelka_white.png);
+    transform: none
+}
+/** cursor right **/
+
+.carousel-txt {
+   
+    color: white;
+    text-align: right;
+    flex-flow: column nowrap;
+    position: absolute;
+    right:230px;
+    
+    bottom: 50px;
+}
+.wedding-txt{
+font-size: 45px;
+font-weight: 600;
+}
+.button-carousel{
+    flex-grow: 1;
+}
+.carousel-data{
+    font-weight: 600;
+    font-size: 45px;
+}
+.button-carousel {
+    background-color: white;
+    outline: none !important;
+    color: #c0392b;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    font-weight: 700;
+    
+    min-height: 72px;
+}
+.button-carousel:hover {
+    background-color: #c0392b;
+    
+    color: white;
+  
+}
+.gallery{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: none;
+    
+}
+.gallery-1{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: none;
+    
+}
+.portfolio{
+    padding:20px 0;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    
+}
+.portfolio-txt{
+    font-size: 45px;
+    font-weight: 600;
+        letter-spacing: 0.1em;
+}
+.foto{
+    text-align: center;
+    flex-shrink: 0;
+    width: 290px;
+height: 290px;
+position: relative;
+transition: all 1s linear;
+}
+.black-line{
+    margin-right: 20px;
+    position: relative;
+    display: block;
+    width: 40px;
+height: 4px;
+background-color: #c0392b;
+}
+.black-line::before{
+    position: absolute;
+    bottom: -10px;
+    right:0;
+content: '';
+display: block;
+width: 60px;
+height: 4px;
+background-color: #000000;
+}
+.red-line{
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    width: 60px;
+height: 4px;
+background-color: #000000;
+}
+.red-line::after{
+    position: absolute;
+    bottom: -10px;
+    left:0;
+content: '';
+display: block;
+width: 40px;
+height: 4px;
+background-color: #c0392b;
+}
+/** foto-hover **/
+.description{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    padding-top: 115px;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+.descr-txt{
+    font-size:26px;
+    font-weight: 600;
+}
+.descr-button{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.foto:hover .description{
+   opacity: 1;
+}
+.bottom-button-area{
+    text-align: center;
+    line-height: 200px;
+}
+.bottom-button {
+    border: 3px solid #c0392b;
+    color: #c0392b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.bci-services {
+    background-image: url(img/fon_services.png);
+    background-size: cover;
+}
+
+.service{
+    padding:20px 0;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    
+}
+.service-txt{
+    font-size: 45px;
+    font-weight: 600;
+        letter-spacing: 0.1em;
+        color: white;
+}
+.white-line{
+    margin-right: 20px;
+    position: relative;
+    display: block;
+    width: 40px;
+height: 4px;
+background-color: #c0392b;
+}
+.white-line::before{
+    position: absolute;
+    bottom: -10px;
+    right:0;
+content: '';
+display: block;
+width: 60px;
+height: 4px;
+background-color: white;
+}
+.red-line_2{
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    width: 60px;
+height: 4px;
+background-color: white;
+}
+.red-line_2::after{
+    position: absolute;
+    bottom: -10px;
+    left:0;
+content: '';
+display: block;
+width: 40px;
+height: 4px;
+background-color: #c0392b;
+}
+
+.foto-2{
+   
+    text-align: center;
+    
+    width: 400px;
+height: 290px;
+position: relative;
+transition: all 1s linear;
+}
+.logo-txt{
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+/** Forms- contact us**/
+.contact-form{
+    padding:0 68px;
+    padding-bottom:40px;
+}
+.contact-form-logo{
+    display: flex;
+    flex-flow: column;
+    
+}
+.contact-form-vk{
+    text-align: center;
+    
+    border: 3px solid #c0392b;
+    height: 70px;
+        
+    background-image: url(img/vk_cont.png);
+    background-repeat: no-repeat;
+     background-position: center;
+     margin-bottom: 30px;
+}
+.contact-form-face{
+        text-align: center;
+        
+            border: 3px solid #c0392b;
+            height: 70px;
+            
+            background-image: url(img/facebook_cont.png);
+            background-repeat: no-repeat;
+           background-position: center;
+           margin-bottom: 30px;
+ }
+  .contact-form-inst{
+            text-align: center;
+            
+                border: 3px solid #c0392b;
+                height: 70px;
+                
+                background-image: url(img/instagram__cont.png);
+                background-repeat: no-repeat;
+               background-position: center;
+               }
+.contact-form-vk:hover{
+               
+                    
+                    background-image: url(img/vk_active.png);
+                    
+                }
+.contact-form-face:hover{
+               
+                    
+background-image: url(img/facebook_active.png);
+                    
+}
+.contact-form-inst:hover{
+background-image: url(img/instagram_active.png);
+                                        
+}
+.call-back-form{
+    padding-top: 32px;
+}
+.call-back{
+    text-transform: uppercase;
+   color: #c0392b;
+   font-size: 32px;
+   font-weight: 500;
+   margin-bottom: 35px;
+   
+}
+.call-back-name {
+    border: none;
+    outline: none;
+    color: #c0392b;
+    border-bottom: 3px solid #c0392b;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+.call-back-margin{
+    margin-top:50px;
+}
+.call-back-submit{
+    text-align: right;
+    margin-top: 30px;
+}
+footer{
+    background-image: url(img/fon_7712.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 120px;
+    background-position: bottom;
+    justify-content: center;
+    display:flex;
+    flex-flow: row wrap;
+padding:30px 0;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+  width: 400px;
+    color: white;
+    flex-flow: column nowrap;
+    
+}
+.footer-text-name-1{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+.footer-text-name-2{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+@media screen and (max-width:1400px){
+    body{
+        padding-top: 0;
+    }
+    .header-position-relative{
+        position: static;
+    }
+    .section-2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .buttons-navbar{
+        position: absolute;
+        left:30px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background-color:#c0392b ;
+    }
+   
+    .navbar-img{
+        position: absolute;
+        left:50%;
+        margin-left:-50px;
+    }
+    .header{
+        width: 100%;
+         display: flex;
+         justify-content: center;
+         position: static;
+         top: 0;
+         z-index: 2;
+         min-height: 110px;
+         
+         
+     }
+     .foto{
+        text-align: center;
+        
+        width: 270px;
+    height: 290px;
+    position: relative;
+    transition: all 1s linear;
+    }
+    .foto-2{
+        margin: 40px;
+        text-align: center;
+        
+        width: 200px;
+    height: 290px;
+    position: relative;
+    transition: all 1s linear;
+    }
+     .zoom{
+        width: 60px;
+height: 60px;
+
+        background-image: url(img/zoom_noactive.png);
+        background-size: cover;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 0px;
+        position: absolute;
+        right:30px;
+    }
+    .carousel-txt {
+   
+        color: white;
+        text-align: right;
+        flex-flow: column nowrap;
+        position: absolute;
+        right:30px;
+        
+        bottom: 50px;
+    }
+}
+@media screen and (max-width:1000px){
+    .foto-2{
+        margin: 40px;
+        text-align: center;
+        
+        width: 190px;
+    height: 290px;
+    position: relative;
+    transition: all 1s linear;
+    }
+}
+@media screen and (max-width:750px){
+    .carousel-txt {
+   
+        color: white;
+        text-align: right;
+        flex-flow: column nowrap;
+        position: absolute;
+        right:30px;
+        
+        bottom: 130px;
+    }
+    .gallery-1{
+    width: 540px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        font-size:inherit;
+        box-sizing: border-box;
+    }
+    .foto{
+        text-align: center;
+        flex-shrink: 0;
+       background-repeat: no-repeat;
+      
+    height: 290px;
+    position: relative;
+    transition: all 1s linear;overflow: hidden;
+    }
+    .wedding-txt{
+    font-size: 25px;
+    font-weight: 600;
+    }
+    .button-carousel{
+        flex-grow: 1;
+    }
+    .carousel-data{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .button-carousel {
+        background-color: white;
+        outline: none !important;
+        color: #c0392b;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 10px;
+        font-weight: 700;
+        
+        min-height: 35px;
+    }
+    .button-carousel:hover {
+        background-color: #c0392b;
+        
+        color: white;
+      
+    }
+    .carousel-button-left{
+        bottom: 50px !important;
+        top:auto;
+        right:50%;
+        left: auto;
+        background-color: white;
+        width: 55px;
+    height: 55px;
+    
+    border-radius: 50%;
+    
+    opacity: 1 !important;
+    margin-right:25px;
+    }
+    .carousel-button-right{
+        bottom: 50px !important;
+        top:auto;
+        left:50%;
+        right: auto;
+        background-color: white;
+        width: 55px;
+    height: 55px;
+    
+    border-radius: 50%;
+    margin-left:25px;
+    opacity: 1 !important;
+    }
+    
+    .disabled{
+        display: none;
+    }
+    .foto-2{
+        margin: 40px;
+        text-align: center;
+        
+        width: 200px;
+    height: 290px;
+    position: relative;
+    transition: all 1s linear;
+    }
+    .contact-form-logo{
+        display: flex;
+        flex-flow: row nowrap;
+        width: 400px;
+        justify-content: space-between;
+    }
+    .contact-form-vk{
+        width: 110px !important;
+    }
+    .contact-form-face{
+        width: 110px !important;
+     }
+      .contact-form-inst{
+        width: 110px !important;
+      }
+      .call-back-submit{
+        text-align: center;
+        
+    }
+}
